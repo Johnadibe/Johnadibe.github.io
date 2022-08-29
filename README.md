@@ -1,6 +1,6 @@
 # Project Name
 
-Portfolio Site
+My Portfolio
 
 # Description the project.
 
@@ -49,6 +49,10 @@ $ git clone {https://github.com/Johnadibe/Johnadibe.github.io.git}
 - GitHub: [@githubhandle](https://github.com/johnadibe)
 - Twitter: [@twitterhandle](https://twitter.com/JohnAdibe2)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/john-adibe-400b36166/)
+
+### Live Demo
+
+[my-portfolio-website](https://Johnadibe.github.io/)
 
 ## 🤝 Contributing
 

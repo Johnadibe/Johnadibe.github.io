@@ -52,7 +52,7 @@ $ git clone {https://github.com/Johnadibe/Johnadibe.github.io.git}
 
 ### Live Demo
 
-[my-portfolio-website](https://Johnadibe.github.io/)
+[my-portfolio-website](https://johnadibe.github.io/)
 
 ## 🤝 Contributing
 

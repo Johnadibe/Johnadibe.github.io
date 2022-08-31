@@ -56,8 +56,10 @@ $ git clone {https://github.com/Johnadibe/Johnadibe.github.io.git}
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome!
-thanks:
+👤 **Daron Kumi Wiafe**
+
+- GitHub: [@githubhandle](https://github.com/Daron976)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/daron-wiafe-1b88141a6/)
 
 ## Show your support
 

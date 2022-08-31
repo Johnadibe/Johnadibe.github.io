@@ -427,6 +427,10 @@ body {
   border: 0;
 }
 
+label {
+  visibility: hidden;
+}
+
 .contact-group input,
 .contact-group textarea {
   width: 100%;

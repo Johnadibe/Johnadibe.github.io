@@ -41,7 +41,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 1.8rem;
+  font-size: 2.1rem;
   line-height: 2.4rem;
 }
 
@@ -201,7 +201,7 @@ body {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   line-height: 2.4rem;
   letter-spacing: 0.03em;
   color: #fff;
@@ -242,7 +242,7 @@ body {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   line-height: 2.4rem;
   color: #fff;
 }
@@ -257,11 +257,11 @@ body {
 
 .art-printing-list li {
   padding: 1rem 1.2rem;
-  background: rgba(255, 255, 255, 0.24);
+  background: rgba(0, 0, 0, 0.25);
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 1.8rem;
   color: #fff;
 }
 
@@ -276,7 +276,7 @@ body {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   line-height: 2.4rem;
   letter-spacing: 0.03em;
 }
@@ -325,7 +325,7 @@ body {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   line-height: 2.4rem;
   color: #f4f5f7;
 }
@@ -427,6 +427,10 @@ body {
   border: 0;
 }
 
+label {
+  visibility: hidden;
+}
+
 .contact-group input,
 .contact-group textarea {
   width: 100%;
@@ -434,7 +438,7 @@ body {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   line-height: 2.4rem;
 }
 
@@ -465,7 +469,7 @@ body {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   line-height: 2.4rem;
   letter-spacing: 0.03em;
   color: #fff;
@@ -677,31 +681,31 @@ body {
   }
 
   .bg-2 {
-    background-image: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url('img/desktop-2.svg');
+    background-image: linear-gradient(179.35deg, rgba(38, 38, 38, 0.2) 0.85%, rgba(38, 38, 38, 0.9) 84%), url('img/desktop-2.svg');
   }
 
   .bg-3 {
-    background-image: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url('img/desktop-3.svg');
+    background-image: linear-gradient(179.4deg, rgba(38, 38, 38, 0.2) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url('img/desktop-3.svg');
   }
 
   .bg-4 {
-    background-image: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url('img/desktop-1.svg');
+    background-image: linear-gradient(179.35deg, rgba(38, 38, 38, 0.2) 0.85%, rgba(38, 38, 38, 0.9) 84%), url('img/desktop-1.svg');
   }
 
   .bg-5 {
-    background-image: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url('img/desktop-2.svg');
+    background-image: linear-gradient(179.35deg, rgba(38, 38, 38, 0.2) 0.85%, rgba(38, 38, 38, 0.9) 84%), url('img/desktop-2.svg');
   }
 
   .bg-6 {
-    background-image: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url('img/desktop-3.svg');
+    background-image: linear-gradient(179.35deg, rgba(38, 38, 38, 0.2) 0.85%, rgba(38, 38, 38, 0.9) 84%), url('img/desktop-3.svg');
   }
 
   .art-printing-description {
-    font-size: 1.7rem;
+    font-size: 1.8rem;
   }
 
   .art-printing-list li {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     line-height: 2rem;
   }
 
@@ -1016,31 +1020,31 @@ body {
   }
 
   .bg-2 {
-    background-image: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url('img/desktop-2.svg');
+    background-image: linear-gradient(179.35deg, rgba(38, 38, 38, 0.9) 0.85%, rgba(38, 38, 38, 0.9) 84%), url('img/desktop-2.svg');
   }
 
   .bg-3 {
-    background-image: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url('img/desktop-3.svg');
+    background-image: linear-gradient(179.4deg, rgba(38, 38, 38, 0.9) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url('img/desktop-3.svg');
   }
 
   .bg-4 {
-    background-image: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url('img/desktop-1.svg');
+    background-image: linear-gradient(179.4deg, rgba(38, 38, 38, 0.9) 0.85%, rgba(38, 38, 38, 0.9) 84%), url('img/desktop-1.svg');
   }
 
   .bg-5 {
-    background-image: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url('img/desktop-2.svg');
+    background-image: linear-gradient(179.4deg, rgba(38, 38, 38, 0.9) 0.85%, rgba(38, 38, 38, 0.9) 84%), url('img/desktop-2.svg');
   }
 
   .bg-6 {
-    background-image: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url('img/desktop-3.svg');
+    background-image: linear-gradient(179.4deg, rgba(38, 38, 38, 0.9) 0.85%, rgba(38, 38, 38, 0.9) 84%), url('img/desktop-3.svg');
   }
 
   .art-printing-description {
-    font-size: 1.7rem;
+    font-size: 1.8rem;
   }
 
   .art-printing-list li {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     line-height: 2rem;
   }
 
@@ -1362,31 +1366,31 @@ body {
   }
 
   .bg-2 {
-    background-image: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url('img/desktop-2.svg');
+    background-image: linear-gradient(179.35deg, rgba(38, 38, 38, 0.2) 0.85%, rgba(38, 38, 38, 0.9) 84%), url('img/desktop-2.svg');
   }
 
   .bg-3 {
-    background-image: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url('img/desktop-3.svg');
+    background-image: linear-gradient(179.4deg, rgba(38, 38, 38, 0.2) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url('img/desktop-3.svg');
   }
 
   .bg-4 {
-    background-image: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url('img/desktop-1.svg');
+    background-image: linear-gradient(179.35deg, rgba(38, 38, 38, 0.2) 0.85%, rgba(38, 38, 38, 0.9) 84%), url('img/desktop-1.svg');
   }
 
   .bg-5 {
-    background-image: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url('img/desktop-2.svg');
+    background-image: linear-gradient(179.35deg, rgba(38, 38, 38, 0.2) 0.85%, rgba(38, 38, 38, 0.9) 84%), url('img/desktop-2.svg');
   }
 
   .bg-6 {
-    background-image: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url('img/desktop-3.svg');
+    background-image: linear-gradient(179.35deg, rgba(38, 38, 38, 0.2) 0.85%, rgba(38, 38, 38, 0.9) 84%), url('img/desktop-3.svg');
   }
 
   .art-printing-description {
-    font-size: 1.7rem;
+    font-size: 1.8rem;
   }
 
   .art-printing-list li {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     line-height: 2rem;
   }
 

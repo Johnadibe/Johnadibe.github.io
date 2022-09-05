@@ -16,9 +16,13 @@
         </a>
         <nav class="main-nav">
             <ul class="main-nav-list">
-                <li><a class="main-nav-link" href="#">Portfolio</a></li>
-                <li><a class="main-nav-link" href="#">About</a></li>
-                <li><a class="main-nav-link" href="#">Contact</a></li>
+                <li class="list-border">
+                    <a class="main-nav-link" href="#works">Portfolio</a>
+                </li>
+                <li class="list-border"><a class="main-nav-link" href="#about">About</a></li>
+                <li class="list-border">
+                    <a class="main-nav-link" href="#contact">Contact</a>
+                </li>
                 <li>
                     <button class="mail-icon">
 <img src="img/icon-mail.svg" alt="Mail Icon" />
@@ -28,7 +32,16 @@
         </nav>
 
         <button class="btn-mobile-nav">
-<img class="menu-icon" src="img/menu.svg" alt="Hamburger menu icon" />
+<img
+class="menu-icon menu-outline"
+src="img/menu.svg"
+alt="Hamburger menu icon"
+/>
+<img
+class="menu-icon close-outline"
+src="img/icon-cancel.svg"
+alt="Hamburger close menu icon"
+/>
 </button>
     </header>
 
@@ -81,7 +94,7 @@
         </div>
     </section>
 
-    <section class="works-section padding-left-right">
+    <section class="works-section padding-left-right" id="works">
         <div class="works">
             <h2 class="works-heading">My Recent Works</h2>
             <hr class="recent-works" />
@@ -196,7 +209,7 @@
         </div>
     </section>
 
-    <section class="about-section padding-left-right">
+    <section class="about-section padding-left-right" id="about">
         <div class="about-box">
             <div class="about-text-box">
                 <h2 class="about-heading">About me</h2>
@@ -255,7 +268,7 @@
         </div>
     </section>
 
-    <footer class="contact">
+    <footer class="contact" id="contact">
         <div class="contact-box">
             <div class="contact-text-box padding-left-right">
                 <h2 class="contact-heading">
@@ -309,6 +322,8 @@
             </ul>
         </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 
 </html>

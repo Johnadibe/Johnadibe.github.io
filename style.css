@@ -88,7 +88,7 @@ body {
     margin-top: 5.8rem;
 }
 
-.list-border {
+.nav-item {
     border-bottom: 1px solid #6f6c6b;
     padding-bottom: 1.5rem;
 }
@@ -610,7 +610,7 @@ label {
         padding-right: 0;
         margin-top: 0;
     }
-    .list-border {
+    .nav-item {
         border: 0;
         padding-bottom: 0;
     }
@@ -901,7 +901,7 @@ label {
         padding-right: 0;
         margin-top: 0;
     }
-    .list-border {
+    .nav-item {
         border: 0;
         padding-bottom: 0;
     }
@@ -1218,7 +1218,7 @@ label {
     .main-nav-link:active {
         color: #ff6b00;
     }
-    .list-border {
+    .nav-item {
         border: 0;
         padding-bottom: 0;
     }

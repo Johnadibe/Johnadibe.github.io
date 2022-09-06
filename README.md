@@ -4,7 +4,7 @@ My Portfolio Website
 
 # Description the project.
 
-The Project is to build the mobile and desktop version of a personal portfolio site.
+The Project is to add functionality to the mobile menu of my personal portfolio site.
 
 The pull request is opened to get a review on the project and check for any required changes.
 
@@ -12,6 +12,8 @@ The pull request is opened to get a review on the project and check for any requ
 
 - HTML
 - CSS
+- JavaScript
+- Visual Studio Code
 
 ---
 
@@ -56,10 +58,11 @@ $ git clone {https://github.com/Johnadibe/Johnadibe.github.io.git}
 
 ## 🤝 Contributing
 
-👤 **Daron Kumi Wiafe**
+👤 **Kenny Egun**
 
-- GitHub: [@githubhandle](https://github.com/Daron976)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/daron-wiafe-1b88141a6/)
+- GitHub: [@kennyegun24](https://github.com/kennyegun24)
+- Twitter: [@kenny_eLiasUTD](https://twitter.com/kenny_eLiasUTD)
+- LinkedIn: - [kenny egun](https://linkedin.com/in/kenny-egun-2ba905222/)
 
 ## Show your support
 

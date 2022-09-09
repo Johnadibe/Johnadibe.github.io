@@ -4,7 +4,7 @@ My Portfolio Website
 
 # Description the project.
 
-The Project is to build a details pop up window of my portfolio website.
+The Project is to build a details pop up window of my portfolio site.
 
 The pull request is opened to get a review on the project and check for any required changes.
 

@@ -4,7 +4,7 @@ My Portfolio Website
 
 # Description the project.
 
-The Project is to build a details pop up window of my portfolio site.
+The Project is to validate the content of the contact e-mail field to be in lower case.
 
 The pull request is opened to get a review on the project and check for any required changes.
 

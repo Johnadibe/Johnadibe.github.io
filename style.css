@@ -395,8 +395,6 @@ button a {
   background-color: #1c1a19;
 }
 
-/* classes to make modal work */
-
 .pop-up {
   position: fixed;
   top: 50%;
@@ -670,12 +668,23 @@ label {
   color: #fff;
   cursor: pointer;
   transition: all 0.7s;
+  position: relative;
 }
 
 .btn-form:hover {
   background: #fff5e1;
   border: 1px solid #f55800;
   color: #f55800;
+}
+
+.error {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.7rem;
+  line-height: 2.4rem;
+  letter-spacing: 0.03em;
+  color: #ff6b00;
 }
 
 .footer-social-icons {

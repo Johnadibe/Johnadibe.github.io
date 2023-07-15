@@ -316,7 +316,8 @@ button a {
 }
 
 .art-printing {
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       180.45deg,
       rgba(38, 38, 38, 0) 0.75%,
       rgba(38, 38, 38, 0.9) 61.94%
@@ -328,7 +329,8 @@ button a {
 }
 
 #bg-1 {
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       179.35deg,
       rgba(38, 38, 38, 0.5) 0.85%,
       rgba(38, 38, 38, 0.9) 84%
@@ -337,7 +339,8 @@ button a {
 }
 
 #bg-2 {
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       179.35deg,
       rgba(38, 38, 38, 0.5) 0.85%,
       rgba(38, 38, 38, 0.9) 84%
@@ -346,7 +349,8 @@ button a {
 }
 
 #bg-3 {
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       179.4deg,
       rgba(38, 38, 38, 0.5) 0.81%,
       rgba(38, 38, 38, 0.9) 84.03%
@@ -355,7 +359,8 @@ button a {
 }
 
 #bg-4 {
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       179.35deg,
       rgba(38, 38, 38, 0.5) 0.85%,
       rgba(38, 38, 38, 0.9) 84%
@@ -364,7 +369,8 @@ button a {
 }
 
 #bg-5 {
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       179.35deg,
       rgba(38, 38, 38, 0.5) 0.85%,
       rgba(38, 38, 38, 0.9) 95%
@@ -373,7 +379,8 @@ button a {
 }
 
 #bg-6 {
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       179.35deg,
       rgba(38, 38, 38, 0.5) 0.85%,
       rgba(38, 38, 38, 0.9) 95%
@@ -842,7 +849,8 @@ label {
 
   .mail-icon:hover,
   .mail-icon:active {
-    filter: invert(42%) sepia(95%) saturate(3994%) hue-rotate(12deg)
+    filter:
+      invert(42%) sepia(95%) saturate(3994%) hue-rotate(12deg)
       brightness(105%) contrast(106%);
   }
 
@@ -974,7 +982,8 @@ label {
   }
 
   #bg-2 {
-    background-image: linear-gradient(
+    background-image:
+      linear-gradient(
         179.35deg,
         rgba(38, 38, 38, 0.2) 0.85%,
         rgba(38, 38, 38, 0.9) 84%
@@ -983,7 +992,8 @@ label {
   }
 
   #bg-3 {
-    background-image: linear-gradient(
+    background-image:
+      linear-gradient(
         179.4deg,
         rgba(38, 38, 38, 0.2) 0.81%,
         rgba(38, 38, 38, 0.9) 84.03%
@@ -992,7 +1002,8 @@ label {
   }
 
   #bg-4 {
-    background-image: linear-gradient(
+    background-image:
+      linear-gradient(
         179.35deg,
         rgba(38, 38, 38, 0.2) 0.85%,
         rgba(38, 38, 38, 0.9) 84%
@@ -1001,7 +1012,8 @@ label {
   }
 
   #bg-5 {
-    background-image: linear-gradient(
+    background-image:
+      linear-gradient(
         179.35deg,
         rgba(38, 38, 38, 0.2) 0.85%,
         rgba(38, 38, 38, 0.9) 84%
@@ -1010,7 +1022,8 @@ label {
   }
 
   #bg-6 {
-    background-image: linear-gradient(
+    background-image:
+      linear-gradient(
         179.35deg,
         rgba(38, 38, 38, 0.2) 0.85%,
         rgba(38, 38, 38, 0.9) 84%
@@ -1242,7 +1255,8 @@ label {
 
   .mail-icon:hover,
   .mail-icon:active {
-    filter: invert(42%) sepia(95%) saturate(3994%) hue-rotate(12deg)
+    filter:
+      invert(42%) sepia(95%) saturate(3994%) hue-rotate(12deg)
       brightness(105%) contrast(106%);
   }
 
@@ -1387,7 +1401,8 @@ label {
   }
 
   #bg-2 {
-    background-image: linear-gradient(
+    background-image:
+      linear-gradient(
         179.35deg,
         rgba(38, 38, 38, 0.9) 0.85%,
         rgba(38, 38, 38, 0.9) 84%
@@ -1396,7 +1411,8 @@ label {
   }
 
   #bg-3 {
-    background-image: linear-gradient(
+    background-image:
+      linear-gradient(
         179.4deg,
         rgba(38, 38, 38, 0.9) 0.81%,
         rgba(38, 38, 38, 0.9) 84.03%
@@ -1405,7 +1421,8 @@ label {
   }
 
   #bg-4 {
-    background-image: linear-gradient(
+    background-image:
+      linear-gradient(
         179.4deg,
         rgba(38, 38, 38, 0.9) 0.85%,
         rgba(38, 38, 38, 0.9) 84%
@@ -1414,7 +1431,8 @@ label {
   }
 
   #bg-5 {
-    background-image: linear-gradient(
+    background-image:
+      linear-gradient(
         179.4deg,
         rgba(38, 38, 38, 0.9) 0.85%,
         rgba(38, 38, 38, 0.9) 84%
@@ -1423,7 +1441,8 @@ label {
   }
 
   #bg-6 {
-    background-image: linear-gradient(
+    background-image:
+      linear-gradient(
         179.4deg,
         rgba(38, 38, 38, 0.9) 0.85%,
         rgba(38, 38, 38, 0.9) 84%
@@ -1656,7 +1675,8 @@ label {
 
   .mail-icon:hover,
   .mail-icon:active {
-    filter: invert(42%) sepia(95%) saturate(3994%) hue-rotate(12deg)
+    filter:
+      invert(42%) sepia(95%) saturate(3994%) hue-rotate(12deg)
       brightness(105%) contrast(106%);
   }
 
@@ -1800,7 +1820,8 @@ label {
   }
 
   #bg-1 {
-    background-image: linear-gradient(
+    background-image:
+      linear-gradient(
         179.35deg,
         rgba(38, 38, 38, 0.5) 0.85%,
         rgba(38, 38, 38, 0.9) 84%
@@ -1810,7 +1831,8 @@ label {
   }
 
   #bg-2 {
-    background-image: linear-gradient(
+    background-image:
+      linear-gradient(
         179.35deg,
         rgba(38, 38, 38, 0.5) 0.85%,
         rgba(38, 38, 38, 0.9) 84%
@@ -1819,7 +1841,8 @@ label {
   }
 
   #bg-3 {
-    background-image: linear-gradient(
+    background-image:
+      linear-gradient(
         179.4deg,
         rgba(38, 38, 38, 0.5) 0.81%,
         rgba(38, 38, 38, 0.9) 84.03%
@@ -1828,7 +1851,8 @@ label {
   }
 
   #bg-4 {
-    background-image: linear-gradient(
+    background-image:
+      linear-gradient(
         179.35deg,
         rgba(38, 38, 38, 0.5) 0.85%,
         rgba(38, 38, 38, 0.9) 84%
@@ -1837,7 +1861,8 @@ label {
   }
 
   #bg-5 {
-    background-image: linear-gradient(
+    background-image:
+      linear-gradient(
         179.35deg,
         rgba(38, 38, 38, 0.5) 0.85%,
         rgba(38, 38, 38, 0.9) 95%
@@ -1846,7 +1871,8 @@ label {
   }
 
   #bg-6 {
-    background-image: linear-gradient(
+    background-image:
+      linear-gradient(
         179.35deg,
         rgba(38, 38, 38, 0.5) 0.85%,
         rgba(38, 38, 38, 0.9) 95%

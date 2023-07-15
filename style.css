@@ -1791,6 +1791,10 @@ label {
     margin: 0;
   }
 
+  .art-printing-heading {
+    font-size: 3rem;
+  }
+
   .art-printing:hover {
     transform: scale(1.03);
   }

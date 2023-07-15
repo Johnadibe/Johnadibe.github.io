@@ -24,7 +24,7 @@ const projectData = [
     imageSrc: "img/vidmix.png",
     title: "VidMix",
     description:
-      "A web-based application that is designed to replicate some of the key features of the popular video-sharing platform, YouTube.",
+      "A web-based YouTube-like application that provides users with the ability to browse, search and watch videos, as well as see video likes and subscriptions.",
     // desc: "The app provides users with the ability to browse, search and watch videos, as well as see video likes and subscriptions."
     badge1: "React",
     badge2: "JavaScript",

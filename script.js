@@ -199,6 +199,12 @@ function showPopUp(project) {
     closePopUp(popUp, overlay);
   });
 
+  document.body.style.overflow = "hidden";
+
+  overlay.addEventListener("click", () => {
+    closePopUp(popUp, overlay);
+  });
+
   const closeIcon = document.createElement("img");
   closeIcon.classList = "close-icon";
   closeIcon.src = "img/icon-cancel.svg";
@@ -263,9 +269,7 @@ function closePopUp(popUp, overlay) {
   popUp.classList.add("hidden");
   overlay.classList.add("hidden");
   document.querySelector(".fixed").style.position = "fixed";
+  document.body.style.overflow = "auto";
 }
-
-const btnClosePopUp = document.querySelector(".close-pop-up");
-const btnShowPopUp = document.querySelectorAll(".show-pop-up");
 
 createProjectCards(projectData);

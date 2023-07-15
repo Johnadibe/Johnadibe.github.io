@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&display=swap");
 
 * {
   margin: 0;
@@ -50,7 +50,7 @@ body {
 }
 
 .logo {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 2.5rem;
@@ -102,7 +102,7 @@ body {
 .main-nav-link:link,
 .main-nav-link:visited {
   text-decoration: none;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 3.2rem;
@@ -163,7 +163,7 @@ body {
 }
 
 #headline-primary {
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 5.6rem;
@@ -173,7 +173,7 @@ body {
 }
 
 .headline-title {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 2.4rem;
@@ -181,7 +181,7 @@ body {
 }
 
 .headline-description {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1.6rem;
@@ -210,7 +210,7 @@ button a {
 }
 
 .headline-img-box {
-  background-image: url('img/headline-img.svg');
+  background-image: url("img/headline-img.svg");
   background-repeat: no-repeat;
   background-size: cover;
   display: block;
@@ -231,7 +231,7 @@ button a {
 }
 
 .works-heading {
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 4rem;
@@ -259,7 +259,7 @@ button a {
 }
 
 .post-stories-heading {
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 3.2rem;
@@ -268,7 +268,7 @@ button a {
 }
 
 .post-stories-description {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1.6rem;
@@ -293,7 +293,7 @@ button a {
   background: #ff6b00;
   text-decoration: none;
   padding: 1.2rem;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 1.8rem;
@@ -316,9 +316,70 @@ button a {
 }
 
 .art-printing {
-  background-image: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url('img/art-printing.svg');
+  background-image: linear-gradient(
+      180.45deg,
+      rgba(38, 38, 38, 0) 0.75%,
+      rgba(38, 38, 38, 0.9) 61.94%
+    ),
+    url("img/art-printing.svg");
   background-repeat: no-repeat;
   background-size: 100%;
+  margin-bottom: 5rem;
+}
+
+#bg-1 {
+  background-image: linear-gradient(
+      179.35deg,
+      rgba(38, 38, 38, 0.5) 0.85%,
+      rgba(38, 38, 38, 0.9) 84%
+    ),
+    url("img/vidmix.png");
+}
+
+#bg-2 {
+  background-image: linear-gradient(
+      179.35deg,
+      rgba(38, 38, 38, 0.5) 0.85%,
+      rgba(38, 38, 38, 0.9) 84%
+    ),
+    url("img/bookstore.png");
+}
+
+#bg-3 {
+  background-image: linear-gradient(
+      179.4deg,
+      rgba(38, 38, 38, 0.5) 0.81%,
+      rgba(38, 38, 38, 0.9) 84.03%
+    ),
+    url("img//country-metrics.png");
+}
+
+#bg-4 {
+  background-image: linear-gradient(
+      179.35deg,
+      rgba(38, 38, 38, 0.5) 0.85%,
+      rgba(38, 38, 38, 0.9) 84%
+    ),
+    url("img/hoobank.png");
+}
+
+#bg-5 {
+  background-image: linear-gradient(
+      179.35deg,
+      rgba(38, 38, 38, 0.5) 0.85%,
+      rgba(38, 38, 38, 0.9) 95%
+    ),
+    url("img/spacex.png");
+}
+
+#bg-6 {
+  background-image: linear-gradient(
+      179.35deg,
+      rgba(38, 38, 38, 0.5) 0.85%,
+      rgba(38, 38, 38, 0.9) 95%
+    ),
+    url("img/ecour.png");
+  margin-bottom: 0;
 }
 
 .art-printing-inner {
@@ -330,7 +391,7 @@ button a {
 }
 
 .art-printing-heading {
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 3.2rem;
@@ -339,12 +400,13 @@ button a {
 }
 
 .art-printing-description {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1.8rem;
   line-height: 2.4rem;
   color: #fff;
+  margin-bottom: 2rem;
 }
 
 .art-printing-list {
@@ -353,12 +415,13 @@ button a {
   flex-direction: row;
   align-items: center;
   gap: 1.2rem;
+  margin-bottom: 5rem;
 }
 
 .art-printing-list li {
   padding: 1rem 1.2rem;
   background: rgba(0, 0, 0, 0.25);
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 1.8rem;
@@ -373,7 +436,7 @@ button a {
   display: block;
   text-align: center;
   text-decoration: none;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 1.8rem;
@@ -401,6 +464,7 @@ button a {
   left: 50%;
   transform: translate(-50%, -50%);
   min-width: 85%;
+  min-height: 85vh;
   background-color: #fff;
   padding: 1.6rem;
   border: 1px solid #dfe1e6;
@@ -415,7 +479,7 @@ button a {
 }
 
 .pop-up-heading {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 3.2rem;
@@ -438,7 +502,7 @@ button a {
 }
 
 .language-list li {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 1.3rem;
@@ -454,7 +518,7 @@ button a {
 }
 
 .card-works-description {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1.6rem;
@@ -505,7 +569,7 @@ button span img {
 }
 
 .about-heading {
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 7.2rem;
@@ -515,7 +579,7 @@ button span img {
 }
 
 .about-description {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1.8rem;
@@ -524,7 +588,7 @@ button span img {
 }
 
 .about-img {
-  background-image: url('img/about_us_img.svg');
+  background-image: url("img/about_us_img.svg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   min-height: 100%;
@@ -558,7 +622,7 @@ button span img {
 }
 
 .categories-heading {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 3.3rem;
@@ -576,7 +640,7 @@ button span img {
 }
 
 .categories-list li {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 2.2rem;
@@ -593,7 +657,7 @@ button span img {
 }
 
 .contact-heading {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 3.2rem;
@@ -628,7 +692,7 @@ label {
 .contact-group textarea {
   width: 100%;
   border: none;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1.8rem;
@@ -659,7 +723,7 @@ label {
   border: none;
   padding: 1.2rem;
   background: #ff6b00;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 1.8rem;
@@ -678,7 +742,7 @@ label {
 }
 
 .error {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 1.7rem;
@@ -713,7 +777,7 @@ label {
   }
 
   .logo {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 2rem;
     line-height: 2rem;
   }
@@ -752,7 +816,7 @@ label {
   .main-nav-link:link,
   .main-nav-link:visited {
     text-decoration: none;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 1.8rem;
@@ -775,7 +839,8 @@ label {
 
   .mail-icon:hover,
   .mail-icon:active {
-    filter: invert(42%) sepia(95%) saturate(3994%) hue-rotate(12deg) brightness(105%) contrast(106%);
+    filter: invert(42%) sepia(95%) saturate(3994%) hue-rotate(12deg)
+      brightness(105%) contrast(106%);
   }
 
   .btn-mobile-nav {
@@ -784,7 +849,6 @@ label {
 
   .headline-section {
     padding-top: 12rem;
-    padding-bottom: 18rem;
   }
 
   .headline-box {
@@ -807,14 +871,14 @@ label {
   }
 
   .headline-title {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 500;
     font-size: 3.2rem;
     line-height: 4.4rem;
   }
 
   .headline-description {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 2rem;
     line-height: 3.2rem;
     color: #f4f5f7;
@@ -823,7 +887,7 @@ label {
 
   .headline-img-box {
     min-width: 60%;
-    background-image: url('img/illustration-header.svg');
+    background-image: url("img/illustration-header.svg");
     background-repeat: no-repeat;
     top: 0;
     right: 0;
@@ -879,7 +943,7 @@ label {
   }
 
   .works-list li {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 1.5rem;
@@ -895,7 +959,7 @@ label {
   }
 
   #bg-1 {
-    background-image: url('img/desktop-1.svg');
+    background-image: url("img/desktop-1.svg");
     background-repeat: no-repeat;
     background-size: 100%;
     border: 1px solid #091e42;
@@ -907,23 +971,48 @@ label {
   }
 
   #bg-2 {
-    background-image: linear-gradient(179.35deg, rgba(38, 38, 38, 0.2) 0.85%, rgba(38, 38, 38, 0.9) 84%), url('img/desktop-2.svg');
+    background-image: linear-gradient(
+        179.35deg,
+        rgba(38, 38, 38, 0.2) 0.85%,
+        rgba(38, 38, 38, 0.9) 84%
+      ),
+      url("img/vidmix.png");
   }
 
   #bg-3 {
-    background-image: linear-gradient(179.4deg, rgba(38, 38, 38, 0.2) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url('img/desktop-3.svg');
+    background-image: linear-gradient(
+        179.4deg,
+        rgba(38, 38, 38, 0.2) 0.81%,
+        rgba(38, 38, 38, 0.9) 84.03%
+      ),
+      url("img/desktop-3.svg");
   }
 
   #bg-4 {
-    background-image: linear-gradient(179.35deg, rgba(38, 38, 38, 0.2) 0.85%, rgba(38, 38, 38, 0.9) 84%), url('img/desktop-1.svg');
+    background-image: linear-gradient(
+        179.35deg,
+        rgba(38, 38, 38, 0.2) 0.85%,
+        rgba(38, 38, 38, 0.9) 84%
+      ),
+      url("img/desktop-1.svg");
   }
 
   #bg-5 {
-    background-image: linear-gradient(179.35deg, rgba(38, 38, 38, 0.2) 0.85%, rgba(38, 38, 38, 0.9) 84%), url('img/desktop-2.svg');
+    background-image: linear-gradient(
+        179.35deg,
+        rgba(38, 38, 38, 0.2) 0.85%,
+        rgba(38, 38, 38, 0.9) 84%
+      ),
+      url("img/desktop-2.svg");
   }
 
   #bg-6 {
-    background-image: linear-gradient(179.35deg, rgba(38, 38, 38, 0.2) 0.85%, rgba(38, 38, 38, 0.9) 84%), url('img/desktop-3.svg');
+    background-image: linear-gradient(
+        179.35deg,
+        rgba(38, 38, 38, 0.2) 0.85%,
+        rgba(38, 38, 38, 0.9) 84%
+      ),
+      url("img/desktop-3.svg");
   }
 
   .art-printing-description {
@@ -1007,7 +1096,7 @@ label {
   }
 
   .about-img {
-    background-image: url('img/about-desktop.svg');
+    background-image: url("img/about-desktop.svg");
     background-repeat: no-repeat;
     min-width: 40%;
     position: absolute;
@@ -1070,7 +1159,7 @@ label {
 
   .contact-group input,
   .contact-group textarea {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
   }
 }
 
@@ -1088,7 +1177,7 @@ label {
   }
 
   .logo {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 2rem;
     line-height: 2rem;
   }
@@ -1127,7 +1216,7 @@ label {
   .main-nav-link:link,
   .main-nav-link:visited {
     text-decoration: none;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 1.5rem;
@@ -1150,7 +1239,8 @@ label {
 
   .mail-icon:hover,
   .mail-icon:active {
-    filter: invert(42%) sepia(95%) saturate(3994%) hue-rotate(12deg) brightness(105%) contrast(106%);
+    filter: invert(42%) sepia(95%) saturate(3994%) hue-rotate(12deg)
+      brightness(105%) contrast(106%);
   }
 
   .btn-mobile-nav {
@@ -1159,7 +1249,6 @@ label {
 
   .headline-section {
     padding-top: 12rem;
-    padding-bottom: 18rem;
     position: relative;
   }
 
@@ -1183,14 +1272,14 @@ label {
   }
 
   .headline-title {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 500;
     font-size: 3.2rem;
     line-height: 4.4rem;
   }
 
   .headline-description {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 2rem;
     line-height: 3.2rem;
     color: #f4f5f7;
@@ -1209,7 +1298,7 @@ label {
 
   .headline-img-box {
     min-width: 50%;
-    background-image: url('img/illustration-header.svg');
+    background-image: url("img/illustration-header.svg");
     background-repeat: no-repeat;
     position: absolute;
     top: 0;
@@ -1267,7 +1356,7 @@ label {
   }
 
   .works-list li {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 1.5rem;
@@ -1283,7 +1372,7 @@ label {
   }
 
   #bg-1 {
-    background-image: url('img/desktop-1.svg');
+    background-image: url("img/vidmix.png");
     background-repeat: no-repeat;
     background-size: 100%;
     border: 1px solid #091e42;
@@ -1295,23 +1384,48 @@ label {
   }
 
   #bg-2 {
-    background-image: linear-gradient(179.35deg, rgba(38, 38, 38, 0.9) 0.85%, rgba(38, 38, 38, 0.9) 84%), url('img/desktop-2.svg');
+    background-image: linear-gradient(
+        179.35deg,
+        rgba(38, 38, 38, 0.9) 0.85%,
+        rgba(38, 38, 38, 0.9) 84%
+      ),
+      url("img/bookstore.png");
   }
 
   #bg-3 {
-    background-image: linear-gradient(179.4deg, rgba(38, 38, 38, 0.9) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url('img/desktop-3.svg');
+    background-image: linear-gradient(
+        179.4deg,
+        rgba(38, 38, 38, 0.9) 0.81%,
+        rgba(38, 38, 38, 0.9) 84.03%
+      ),
+      url("img/country-metrics.png");
   }
 
   #bg-4 {
-    background-image: linear-gradient(179.4deg, rgba(38, 38, 38, 0.9) 0.85%, rgba(38, 38, 38, 0.9) 84%), url('img/desktop-1.svg');
+    background-image: linear-gradient(
+        179.4deg,
+        rgba(38, 38, 38, 0.9) 0.85%,
+        rgba(38, 38, 38, 0.9) 84%
+      ),
+      url("img/hoobank.png");
   }
 
   #bg-5 {
-    background-image: linear-gradient(179.4deg, rgba(38, 38, 38, 0.9) 0.85%, rgba(38, 38, 38, 0.9) 84%), url('img/desktop-2.svg');
+    background-image: linear-gradient(
+        179.4deg,
+        rgba(38, 38, 38, 0.9) 0.85%,
+        rgba(38, 38, 38, 0.9) 84%
+      ),
+      url("img/spacex.png");
   }
 
   #bg-6 {
-    background-image: linear-gradient(179.4deg, rgba(38, 38, 38, 0.9) 0.85%, rgba(38, 38, 38, 0.9) 84%), url('img/desktop-3.svg');
+    background-image: linear-gradient(
+        179.4deg,
+        rgba(38, 38, 38, 0.9) 0.85%,
+        rgba(38, 38, 38, 0.9) 84%
+      ),
+      url("img/ecour.png");
   }
 
   .art-printing-description {
@@ -1395,7 +1509,7 @@ label {
   }
 
   .about-img {
-    background-image: url('img/about-desktop.svg');
+    background-image: url("img/about-desktop.svg");
     background-repeat: no-repeat;
     min-width: 40%;
     position: absolute;
@@ -1458,7 +1572,7 @@ label {
 
   .contact-group input,
   .contact-group textarea {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
   }
 }
 
@@ -1476,7 +1590,7 @@ label {
   }
 
   .logo {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 2rem;
     line-height: 2rem;
   }
@@ -1510,7 +1624,7 @@ label {
   .main-nav-link:link,
   .main-nav-link:visited {
     text-decoration: none;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 1.6rem;
@@ -1539,7 +1653,8 @@ label {
 
   .mail-icon:hover,
   .mail-icon:active {
-    filter: invert(42%) sepia(95%) saturate(3994%) hue-rotate(12deg) brightness(105%) contrast(106%);
+    filter: invert(42%) sepia(95%) saturate(3994%) hue-rotate(12deg)
+      brightness(105%) contrast(106%);
   }
 
   .btn-mobile-nav {
@@ -1548,7 +1663,6 @@ label {
 
   .headline-section {
     padding-top: 12rem;
-    padding-bottom: 18rem;
     position: relative;
   }
 
@@ -1572,14 +1686,14 @@ label {
   }
 
   .headline-title {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 500;
     font-size: 3.2rem;
     line-height: 4.4rem;
   }
 
   .headline-description {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 2rem;
     line-height: 3.2rem;
     color: #f4f5f7;
@@ -1588,7 +1702,7 @@ label {
 
   .social-icons {
     position: absolute;
-    left: 4rem;
+    left: 5rem;
     transform: translate(-50%, 50%);
   }
 
@@ -1598,7 +1712,7 @@ label {
 
   .headline-img-box {
     min-width: 50%;
-    background-image: url('img/illustration-header.svg');
+    background-image: url("img/illustration-header.svg");
     background-repeat: no-repeat;
     top: 0;
   }
@@ -1653,7 +1767,7 @@ label {
   }
 
   .works-list li {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 1.5rem;
@@ -1670,6 +1784,8 @@ label {
 
   .art-printing {
     transition: all 0.7s;
+    position: relative;
+    margin: 0;
   }
 
   .art-printing:hover {
@@ -1677,28 +1793,58 @@ label {
   }
 
   #bg-1 {
-    background-image: linear-gradient(179.35deg, rgba(38, 38, 38, 0.2) 0.85%, rgba(38, 38, 38, 0.9) 84%), url('img/desktop-1.svg');
+    background-image: linear-gradient(
+        179.35deg,
+        rgba(38, 38, 38, 0.5) 0.85%,
+        rgba(38, 38, 38, 0.9) 84%
+      ),
+      url("img/vidmix.png");
     border: 1px solid #e8eaec;
   }
 
   #bg-2 {
-    background-image: linear-gradient(179.35deg, rgba(38, 38, 38, 0.2) 0.85%, rgba(38, 38, 38, 0.9) 84%), url('img/desktop-2.svg');
+    background-image: linear-gradient(
+        179.35deg,
+        rgba(38, 38, 38, 0.5) 0.85%,
+        rgba(38, 38, 38, 0.9) 84%
+      ),
+      url("img/bookstore.png");
   }
 
   #bg-3 {
-    background-image: linear-gradient(179.4deg, rgba(38, 38, 38, 0.2) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url('img/desktop-3.svg');
+    background-image: linear-gradient(
+        179.4deg,
+        rgba(38, 38, 38, 0.5) 0.81%,
+        rgba(38, 38, 38, 0.9) 84.03%
+      ),
+      url("img//country-metrics.png");
   }
 
   #bg-4 {
-    background-image: linear-gradient(179.35deg, rgba(38, 38, 38, 0.2) 0.85%, rgba(38, 38, 38, 0.9) 84%), url('img/desktop-1.svg');
+    background-image: linear-gradient(
+        179.35deg,
+        rgba(38, 38, 38, 0.5) 0.85%,
+        rgba(38, 38, 38, 0.9) 84%
+      ),
+      url("img/hoobank.png");
   }
 
   #bg-5 {
-    background-image: linear-gradient(179.35deg, rgba(38, 38, 38, 0.2) 0.85%, rgba(38, 38, 38, 0.9) 84%), url('img/desktop-2.svg');
+    background-image: linear-gradient(
+        179.35deg,
+        rgba(38, 38, 38, 0.5) 0.85%,
+        rgba(38, 38, 38, 0.9) 95%
+      ),
+      url("img/spacex.png");
   }
 
   #bg-6 {
-    background-image: linear-gradient(179.35deg, rgba(38, 38, 38, 0.2) 0.85%, rgba(38, 38, 38, 0.9) 84%), url('img/desktop-3.svg');
+    background-image: linear-gradient(
+        179.35deg,
+        rgba(38, 38, 38, 0.5) 0.85%,
+        rgba(38, 38, 38, 0.9) 95%
+      ),
+      url("img/ecour.png");
   }
 
   .art-printing-description {
@@ -1706,13 +1852,15 @@ label {
   }
 
   .art-printing-list li {
-    font-size: 1.8rem;
+    font-size: 1.1rem;
     line-height: 2rem;
   }
 
   .btn-lg {
     background-color: #f55800;
     transition: all 0.7s;
+    position: absolute;
+    bottom: 0;
   }
 
   .btn-lg:hover,
@@ -1735,6 +1883,7 @@ label {
 
   .card-work-img {
     width: 100%;
+    height: 75vh;
   }
 
   .card-works-text {
@@ -1758,8 +1907,8 @@ label {
 
   .about-box {
     display: flex;
-    padding-top: 12rem;
-    padding-bottom: 13.9rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
     position: relative;
   }
 
@@ -1782,7 +1931,7 @@ label {
   }
 
   .about-img {
-    background-image: url('img/about-desktop.svg');
+    background-image: url("img/about-desktop.svg");
     background-repeat: no-repeat;
     min-width: 40%;
     position: absolute;
@@ -1845,7 +1994,7 @@ label {
 
   .contact-group input,
   .contact-group textarea {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
   }
 }
 

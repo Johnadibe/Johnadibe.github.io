@@ -1857,6 +1857,7 @@ label {
   .art-printing-list li {
     font-size: 1rem;
     line-height: 2rem;
+    padding: 1rem 0.7rem;
   }
 
   .btn-lg {

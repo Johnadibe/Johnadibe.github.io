@@ -28,7 +28,7 @@ const projectData = [
     // desc: "The app provides users with the ability to browse, search and watch videos, as well as see video likes and subscriptions."
     badge1: "React",
     badge2: "JavaScript",
-    badge3: "Material UI",
+    badge3: "MUI",
     badge4: "YouTube API",
     id: "bg-1",
     demoLink: "https://vid-mix.netlify.app/",

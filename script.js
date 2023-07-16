@@ -64,6 +64,21 @@ const projectData = [
     source: "https://github.com/Johnadibe/country-metrics-app",
   },
 
+  // {
+  //   imageSrc: "img/hoobank.png",
+  //   title: "HooBank",
+  //   description:
+  //     "A landing page website that aim to provide visitors with a focused message, a CTA that encourages them to take a desired action.",
+  //     "A landing page website that delivers a clear and concise message to its visitors, ensuring an engaging and delightful user experience.",
+  //   badge1: "React",
+  //   badge2: "JavaScript",
+  //   badge3: "Tailwind CSS",
+  //   badge4: "Aos",
+  //   id: "bg-4",
+  //   demoLink: "https://hoobank-x40v.onrender.com/",
+  //   source: "https://github.com/Johnadibe/hoo_bank",
+  // },
+
   {
     imageSrc: "img/spacex.png",
     title: "Space Travellers' Hub",

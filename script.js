@@ -65,20 +65,6 @@ const projectData = [
   },
 
   {
-    imageSrc: "img/hoobank.png",
-    title: "HooBank",
-    description:
-      "A landing page website that aim to provide visitors with a focused message, a CTA that encourages them to take a desired action.",
-    badge1: "React",
-    badge2: "JavaScript",
-    badge3: "Tailwind CSS",
-    badge4: "Aos",
-    id: "bg-4",
-    demoLink: "https://hoobank-x40v.onrender.com/",
-    source: "https://github.com/Johnadibe/hoo_bank",
-  },
-
-  {
     imageSrc: "img/spacex.png",
     title: "Space Travellers' Hub",
     description:

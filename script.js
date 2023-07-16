@@ -103,8 +103,8 @@ const projectData = [
     badge3: "JavaScript",
     badge4: "npm",
     id: "bg-6",
-    demoLink: "https://johnadibe.github.io",
-    source: "https://johnadibe.github.io/ecour-IT/",
+    demoLink: "https://johnadibe.github.io/ecour-IT/",
+    source: "https://github.com/Johnadibe/ecour-IT",
   },
 ];
 
